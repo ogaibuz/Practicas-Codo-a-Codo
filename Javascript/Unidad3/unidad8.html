@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container-sm my-3 bg-light border">
+        <h1>Ingrese sus datos</h1>
+        <form id='frm-1'>
+            <div class="row">
+                <div class="form-group col-sm">
+                    <label for="lblnombre">Nombre:</label>
+                    <input type="text" id="lblnombre" class="form-control" placeholder="@" aria-describedby="nameHelp" required>
+                    <small id="nameHelp">El nombre debe contener un caracter @rroba</small>
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group col-sm">
+                    <label for="lblapellido">Apellido:</label>
+                    <input type="text" id="lblapellido" class="form-control" placeholder="ingrese su apellido" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group col-sm">
+                    <button type="submit" id="submit" class="btn btn-primary">Ingresar</button>
+                </div>
+            </div>
+
+        </form>
+    </div>
+
+    <script src="control.js"></script>
+</body>
+
+</html>
